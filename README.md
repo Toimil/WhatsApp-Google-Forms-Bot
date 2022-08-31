@@ -35,20 +35,18 @@ Necesitarás disponer de:
 
 3. Modifica la primera parte del código [whatsapp_google_forms_bot.py](https://github.com/Toimil/WhatsApp-Google-Forms-Bot/blob/main/whatsapp_google_forms_bot.py) para adaptarlo a tus necesidades:
 
-    * Deberás indicar el mensaje con el cual se notificará a las personas cuando cubran el formulario de Google ser notificado cuando se realice un cambio en estas, por ello, **modifica la lista *URLs***.
-    * A su vez, debes **modificar la lista *subjectNames*** y poner el nombre de las asignaturas en el mismo orden en el que fueron introducidas las URLs.
-    * Además, podrás modificar el icono con el que se ejecutará el bot e indicar la imagen que quieras.
-    * Por último, **debes indicar tu correo electrónico y tu contraseña del campus virtual así como tu *execution***. Para obtener lo mencionado anteriormente, se ha facilitado un [*tutorial*](#tutorial-para-obtener-tu-execution).
+    * Deberás indicar el mensaje con el cual se notificará a las personas cuando cubran el formulario de Google, por ello, **modifica la variable *mensaje*** (puedes usar caracteres comodines para luego sustituirlos por lo que se introduzca en diversos campos del formulario).
+    * Si realizaste el paso anterior utilizando algun caracter comodín, deberás indicar el campo del formulario que quieres que se sustituya en el lugar que se indica con comentarios en el código.
+    
+4. Ejecuta el script mediante el comando **```python whatsapp_google_forms_bot.py```**
 
-4. Ejecuta el script mediante el comando **```python3 notificaciones_cv.py```**
-
-5. Cuando desees finalizar la ejecución del bot tendrás que hacer ***click derecho*** en el icono y pulsar la opción ***Salir***.
+5. Cuando desees **finalizar la ejecución** del bot tendrás que hacer ***ctrl + c*** en la ventana de la terminal.
 
 
 
-## Tutorial para crear una cuenta en Google Developers
+## Tutorial para habilitar la API de Google
 
-1. En primer lugar, accede a la web [de Google Developers](https://developers.google.com/profile/u/me?authuser=3) y crea un perfil.
+1. En primer lugar, accede a la web [https://console.cloud.google.com/](https://console.cloud.google.com/)
 2. Entrar en https://console.cloud.google.com/ 
 3. Compartir el excel con el correo que nos ha aparecido
 
