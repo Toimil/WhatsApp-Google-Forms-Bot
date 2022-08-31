@@ -22,16 +22,20 @@ Necesitarás disponer de:
 
 * Tener una **cuenta de WhatsApp** con ese número de teléfono.
 
+* Tener instalada la **aplicación de escritorio de WhatsApp**.
+
 
 ### Ejecución del bot
 
-1. Clona este repositorio en tu sistema mediante ```git clone https://github.com/Toimil/CV-USC-Notifier-Bot``` o descárgalo colocando todos los archivos en el mismo directorio.
+1. Clona este repositorio en tu sistema mediante ```git clone https://github.com/Toimil/WhatsApp-Google-Forms-Bot``` o descárgalo colocando todos los archivos en el mismo directorio.
 
-2. Instala todas las librerias mencionadas en [requirements.txt](https://github.com/Toimil/CV-USC-Notifier-Bot/blob/main/requirements.txt) y así asegurar un correcto funcionamiento del bot, para ello, ejecuta el siguiente comando ```pip install -r requirements.txt```
+2. Instala todas las librerias mencionadas en [requirements.txt](https://github.com/Toimil/WhatsApp-Google-Forms-Bot/blob/main/requirements.txt) y así asegurar un correcto funcionamiento del bot, para ello, ejecuta el siguiente comando ```pip install -r requirements.txt```.
 
-3. Modifica la primera parte del código [notificaciones_cv.py](https://github.com/Toimil/CV-USC-Notifier-Bot/blob/main/notificaciones_cv.py) para adaptarlo a tus necesidades:
+3. Sigue el tutorial facilitado en este documento para habilitar la API de Google. 
 
-    * Deberás indicar las URLs de las asignaturas de las cuales quieres ser notificado cuando se realice un cambio en estas, por ello, **modifica la lista *URLs***.
+3. Modifica la primera parte del código [whatsapp_google_forms_bot.py](https://github.com/Toimil/WhatsApp-Google-Forms-Bot/blob/main/whatsapp_google_forms_bot.py) para adaptarlo a tus necesidades:
+
+    * Deberás indicar el mensaje con el cual se notificará a las personas cuando cubran el formulario de Google ser notificado cuando se realice un cambio en estas, por ello, **modifica la lista *URLs***.
     * A su vez, debes **modificar la lista *subjectNames*** y poner el nombre de las asignaturas en el mismo orden en el que fueron introducidas las URLs.
     * Además, podrás modificar el icono con el que se ejecutará el bot e indicar la imagen que quieras.
     * Por último, **debes indicar tu correo electrónico y tu contraseña del campus virtual así como tu *execution***. Para obtener lo mencionado anteriormente, se ha facilitado un [*tutorial*](#tutorial-para-obtener-tu-execution).
