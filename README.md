@@ -31,18 +31,22 @@ Necesitarás disponer de:
 
 2. Instala todas las librerias mencionadas en [requirements.txt](https://github.com/Toimil/WhatsApp-Google-Forms-Bot/blob/main/requirements.txt) y así asegurar un correcto funcionamiento del bot, para ello, ejecuta el siguiente comando ```pip install -r requirements.txt```.
 
-3. Sigue el tutorial facilitado en este documento para habilitar la API de Google. 
+3. Sigue el [tutorial](https://github.com/Toimil/WhatsApp-Google-Forms-Bot#tutorial-para-habilitar-la-api-de-google) facilitado en este documento para habilitar la API de Google. 
 
-4. Con el correo que se creo, compartelo con el excel de tu forms.
+4. Crea un formulario de google y selecciona que **se cree un google sheets de ese formulario**.
 
-5. Modifica la primera parte del código [whatsapp_google_forms_bot.py](https://github.com/Toimil/WhatsApp-Google-Forms-Bot/blob/main/whatsapp_google_forms_bot.py) para adaptarlo a tus necesidades:
+5. **Comparte ese google sheets con el correo** que se creó en el tutorial que será de la forma aaaaaa@aaaaaa.iam.gserviceaccount.com.
+
+6. Modifica la primera parte del código [whatsapp_google_forms_bot.py](https://github.com/Toimil/WhatsApp-Google-Forms-Bot/blob/main/whatsapp_google_forms_bot.py) para adaptarlo a tus necesidades:
 
     * Deberás indicar el mensaje con el cual se notificará a las personas cuando cubran el formulario de Google, por ello, **modifica la variable *mensaje*** (puedes usar caracteres comodines para luego sustituirlos por lo que se introduzca en diversos campos del formulario).
     * Si realizaste el paso anterior utilizando algun caracter comodín, deberás indicar el campo del formulario que quieres que se sustituya en el lugar que se indica con comentarios en el código.
     
-6. Ejecuta el script mediante el comando **```python whatsapp_google_forms_bot.py```**
+7. Antes de ejecutar el script accede al enlace [https://api.whatsapp.com/send?phone=34666666666&text=aaa](https://api.whatsapp.com/send?phone=34666666666&text=aaa) y **habilita las redirecciones a la aplicación de escritorio de WhatsApp** 
+    
+8. Ejecuta el script mediante el comando **```python whatsapp_google_forms_bot.py```**, antes de ejecutarlo asegúrate que tienes la aplicacion de WhatsApp abierta.
 
-7. Cuando desees **finalizar la ejecución** del bot tendrás que hacer ***ctrl + c*** en la ventana de la terminal.
+9. Cuando desees **finalizar la ejecución** del bot tendrás que hacer ***ctrl + c*** en la ventana de la terminal.
 
 
 
