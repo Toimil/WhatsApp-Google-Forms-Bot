@@ -58,8 +58,14 @@ Necesitarás disponer de:
         <img src="https://github.com/Toimil/WhatsApp-Google-Forms-Bot/blob/main/tutorial.gif" alt="animated" />
     </p>
 
-4. Explicar los pasos...
-
+3. Primeramente deberás hacer click en "*selecciona un proyecto*" y, posteriormente, pulsar en "*proyecto nuevo*". A continuación, escribes el nombre con el que vas a identificar al proyecto y le das a "*crear*".
+4. Ahora en la pestaña que se abre tras pulsar "*selecciona un proyecto*" te aparecerá el proyecto que acabas de crear, ahora tendrás que hacer click en él y en la pestaña que se te abre seleccionar el apartado denominado "*panel*".
+5. En la barra de búsqueda que puedes encontrar en la parte superior de tu pantalla escribirás "*google drive api*" y clickar el primer resultado que te aparece de la búsqueda, tras esto, le das a "*habilitar*".
+6. Una vez realizado el paso anterior, deberás repetirlo pero escribiendo en este caso "*google sheets api*".
+7. Tras habilitar "*google sheets api*" tendrás que hacer click en el apartado de credenciales que se encuentra en la parte izquierda de la pantalla. Después de realizar lo descrito anteriormente, deberás pulsar en "*administrar cuentas de servicio*" y, en la pestaña que se te abrirá, seleccionar "*crear cuenta de servicio*".
+8. A continuación, observarás que debes introducir unos datos de los cuales basta con cubrir el "*nombre de la cuenta de servicio*" escribiendo el nombre que desees y pulsar "*crear y continuar*".
+9. Posteriormente, observarás un correo electrónico que deberás copiar ya que será de utilidad más tarde, además, deberás de clickar en los tres puntos y entre las opciones que te saldrán disponibles selecciona "*administrar claves*".
+10. Para finalizar, presiona "*agregar clave*" y, en la pestaña emergente, selecciona el tipo de clave en formato "*JSON*". Por último, pulsa el botón de "*crear*". Se te descargará automáticamente un archivo que deberás ubicarlo en la misma carpeta que en la que hayas clonado el repositorio.
 
 ## Hecho con
 
