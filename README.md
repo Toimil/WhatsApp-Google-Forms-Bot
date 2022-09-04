@@ -67,7 +67,7 @@ Necesitarás disponer de:
 7. Tras habilitar "*google sheets api*" tendrás que hacer click en el apartado de credenciales que se encuentra en la parte izquierda de la pantalla. Después de realizar lo descrito anteriormente, deberás pulsar en "*administrar cuentas de servicio*" y, en la pestaña que se te abrirá, seleccionar "*crear cuenta de servicio*".
 8. A continuación, observarás que debes introducir unos datos de los cuales basta con cubrir el "*nombre de la cuenta de servicio*" escribiendo el nombre que desees y pulsar "*crear y continuar*".
 9. Posteriormente, observarás un correo electrónico que deberás copiar ya que será de utilidad más tarde, además, deberás de clickar en los tres puntos y entre las opciones que te saldrán disponibles selecciona "*administrar claves*".
-10. Para finalizar, presiona "*agregar clave*" y, en la pestaña emergente, selecciona el tipo de clave en formato "*JSON*". Por último, pulsa el botón de "*crear*". Se te descargará automáticamente un archivo que deberás ubicarlo en la misma carpeta que en la que hayas clonado el repositorio.
+10. Para finalizar, presiona "*agregar clave*" y, en la pestaña emergente, selecciona el tipo de clave en formato "*JSON*". Por último, pulsa el botón de "*crear*". Se te descargará automáticamente un archivo que deberás **ubicarlo en la misma carpeta que en la que hayas clonado el repositorio**.
 
 ## Hecho con
 
