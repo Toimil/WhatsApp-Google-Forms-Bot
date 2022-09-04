@@ -42,11 +42,13 @@ Necesitarás disponer de:
     * Deberás indicar el mensaje con el cual se notificará a las personas cuando cubran el formulario de Google, por ello, **modifica la variable *mensaje*** (puedes usar caracteres comodines para luego sustituirlos por lo que se introduzca en diversos campos del formulario).
     * Si realizaste el paso anterior utilizando algun caracter comodín, deberás indicar el campo del formulario que quieres que se sustituya en el lugar que se indica con comentarios en el código.
     
-7. Antes de ejecutar el script accede al enlace [https://api.whatsapp.com/send?phone=34666666666&text=aaa](https://api.whatsapp.com/send?phone=34666666666&text=aaa) y **habilita las redirecciones a la aplicación de escritorio de WhatsApp** 
+7. Tal como está diseñado el script, será necesario añadir dos nuevas columnas denominadas "Enviado" y "Entradas Disponibles", además, justo en la celda que se encuentra debajo de "Entradas Disponibles" deberás indicar con números las entradas que querrás repartir.
     
-8. Ejecuta el script mediante el comando **```python whatsapp_google_forms_bot.py```**, antes de ejecutarlo asegúrate que tienes la aplicacion de WhatsApp abierta.
+8. Antes de ejecutar el script accede al enlace [https://api.whatsapp.com/send?phone=34666666666&text=aaa](https://api.whatsapp.com/send?phone=34666666666&text=aaa) y **habilita siempre las redirecciones a la aplicación de escritorio de WhatsApp** 
+    
+9. Ejecuta el script mediante el comando **```python whatsapp_google_forms_bot.py```**, antes de ejecutarlo asegúrate que tienes la **aplicacion de WhatsApp abierta**.
 
-9. Cuando desees **finalizar la ejecución** del bot tendrás que hacer ***ctrl + c*** en la ventana de la terminal.
+10. Cuando desees **finalizar la ejecución** del bot tendrás que hacer ***ctrl + c*** en la ventana de la terminal.
 
 
 
@@ -70,6 +72,10 @@ Necesitarás disponer de:
 ## Hecho con
 
 * [Python 3](https://www.python.org/)
+* [PyAutoGUI](https://github.com/asweigart/pyautogui)
+* [gspread](https://github.com/burnash/gspread)
+* [Oauth2client](https://github.com/googleapis/oauth2client)
+* [Webbrowser](https://docs.python.org/es/3/library/webbrowser.html)
 
 ## Autor
 
