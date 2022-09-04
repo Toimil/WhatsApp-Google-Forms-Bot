@@ -136,7 +136,7 @@ def main():
                         exit()
                     
                     try:
-                        enviar_whatsapp("34" + str(data[index][key]), y, 3, 1)            
+                        enviar_whatsapp("34" + str(data[index][key]), y, 3.5, 1)            
 
                         # Actualizamos la columna Notificado para ese numero y ponemos el valor "Si"
                         sheet.update_cell(index+2,len(data[index])-1, "Si")
