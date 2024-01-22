@@ -79,6 +79,6 @@ Necesitarás disponer de:
 
 ## Autor
 
-* **Óscar Toimil** - [Toimil](https://github.com/Toimil)
+* **Óscar Toimil**. - [Toimil](https://github.com/Toimil)
 
 
